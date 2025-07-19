@@ -746,14 +746,14 @@ function loadPersonalInfo() {
 
 function updateWebsiteContent() {
   const elements = {
-    logoText: personalInfo.name.substring(0, 2).toUpperCase() || "YN",
-    heroName: personalInfo.name || "Your Name",
-    footerName: personalInfo.name || "Your Name",
-    copyrightName: personalInfo.name || "Your Name",
+    logoText: personalInfo.name.substring(0, 2).toUpperCase() || "LOTE",
+    heroName: personalInfo.name || "Lote Michael",
+    footerName: personalInfo.name || "Lote Michael",
+    copyrightName: personalInfo.name || "Lote Michael",
     footerDescription: "Passionate developer creating exceptional digital experiences and turning ideas into reality.",
-    footerEmail: personalInfo.email || "your.email@example.com",
-    footerPhone: personalInfo.phone || "+1 (234) 567-890",
-    footerLocation: personalInfo.location || "Your City, Country",
+    footerEmail: personalInfo.email || "michaellote1@gmail.com",
+    footerPhone: personalInfo.phone || "+256 762451545",
+    footerLocation: personalInfo.location || "Kampala, Uganda",
   }
 
   Object.entries(elements).forEach(([id, value]) => {
