@@ -773,9 +773,9 @@ function updateWebsiteContent() {
 
   // Update social links
   const socialLinks = {
-    githubLink: `https://github.com/${personalInfo.github || "yourusername"}`,
+    githubLink: `https://github.com/${personalInfo.github || "mlote"}`,
     linkedinLink: `https://linkedin.com/in/${personalInfo.linkedin || "yourusername"}`,
-    twitterLink: `https://twitter.com/${personalInfo.twitter || "yourusername"}`,
+    twitterLink: `https://twitter.com/${personalInfo.twitter || "michaellote1"}`,
     footerCalendar: `https://calendly.com/${personalInfo.calendly || "yourname"}`,
     scheduleCallBtn: `https://calendly.com/${personalInfo.calendly || "yourname"}`,
   }
