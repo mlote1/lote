@@ -746,7 +746,7 @@ function loadPersonalInfo() {
 
 function updateWebsiteContent() {
   const elements = {
-    logoText: personalInfo.name.substring(0, 2).toUpperCase() || "LOTE",
+    logoText: personalInfo.name.substring(0, 4).toUpperCase() || "LOTE",
     heroName: personalInfo.name || "Lote Michael",
     footerName: personalInfo.name || "Lote Michael",
     copyrightName: personalInfo.name || "Lote Michael",
