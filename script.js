@@ -3,14 +3,14 @@ let projects = JSON.parse(localStorage.getItem("portfolioProjects")) || []
 let blogPosts = JSON.parse(localStorage.getItem("blogPosts")) || []
 const comments = JSON.parse(localStorage.getItem("portfolioComments")) || []
 let personalInfo = JSON.parse(localStorage.getItem("personalInfo")) || {
-  name: "Your Name",
+  name: "Lote Michael",
   email: "michaellote1@gmail.com",
-  phone: "+1 (234) 567-890",
-  location: "Your City, Country",
-  github: "yourusername",
-  linkedin: "yourusername",
-  twitter: "yourusername",
-  calendly: "yourname",
+  phone: "+256 762451545",
+  location: "Kampala, Uganda",
+  github: "mlote1",
+  linkedin: "michaellote1",
+  twitter: "michaellote1",
+  calendly: "mlote1",
 }
 let editingProjectId = null
 let editingBlogId = null
